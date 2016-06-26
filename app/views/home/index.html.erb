@@ -1,0 +1,9 @@
+<h1>Code Snippets</h1>
+
+<%= link_to "Ruby(#{@snippets.where(category_id:1).length})", rubys_index_path %>
+<br />
+<%= link_to "HTML(#{@snippets.where(category_id:2).length})", htmls_index_path %>
+<br />
+<%= link_to "CSS(#{@snippets.where(category_id:3).length})", csss_index_path %>
+<br />
+<%= link_to "Javascript(#{@snippets.where(category_id:4).length})", jss_index_path %>

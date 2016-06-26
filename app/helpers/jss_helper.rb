@@ -1,0 +1,2 @@
+module JssHelper
+end
